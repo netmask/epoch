@@ -1,10 +1,7 @@
-#include <iostream>
-#include <linenoise.h>
-
-using namespace std;
+#include <epoch.h>
 
 int main ()
 {
-    linenoise("epoch>");
+    Epoch::Engine engine;
     return 0;
 }

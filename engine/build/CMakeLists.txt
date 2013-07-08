@@ -5,6 +5,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake_mod
 set(CMAKE_COLOR_MAKEFILE ON)
 
 
+find_package(LLVM)
+#find_package(Qt)
 find_package(SFML REQUIRED system window graphics network audio)
 find_package(V8)
 
@@ -23,7 +25,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../dist")
 SET(Boost_USE_MULTITHREAD ON)
 FIND_PACKAGE(Boost)
 
-INCLUDE_DIRECTORIES(${INCLUDE_DIRECTORIES} ${Boost_INCLUDE_DIRS})
+INCLUDE_DIRECTORIES(${INCLUDE_DIRECTORIES}
+                    ${Boost_INCLUDE_DIRS}
+                    ${LLVM_INCLUDE_DIR})
 
 include_directories(${EPOCH_HEADERS})
 include_directories(${PROJECT_SOURCE_DIR})
@@ -40,4 +44,5 @@ add_executable(epoch ${EPOCH_SOURCE_FILES} ${LINENOISE_SRC})
 
 target_link_libraries(epoch ${SFML_LIBRARIES}
                             ${V8_LIBRARIES}
-                            ${Boost_LIBRARIES})
+                            ${Boost_LIBRARIES}
+                            ${LLVM_MODULE_LIBS})

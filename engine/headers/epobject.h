@@ -1,6 +1,0 @@
-namespace Epoch
-{
-    class EPObjec{
-
-    };
-}

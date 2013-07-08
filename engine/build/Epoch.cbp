@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Epoch" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/Users/netmask/Projects/personal/epoch/engine/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="epoch">
+         <Option output="/Users/netmask/Projects/personal/epoch/engine/dist/epoch" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="../dist" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/netmask/Projects/personal/epoch/engine/build/../dependencies/linenoise" />
+            <Add directory="/Users/netmask/Projects/personal/epoch/engine/build/../headers" />
+            <Add directory="/Users/netmask/Projects/personal/epoch/engine/build/../source" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 epoch" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="epoch/fast">
+         <Option output="/Users/netmask/Projects/personal/epoch/engine/dist/epoch" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="../dist" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/Users/netmask/Projects/personal/epoch/engine/build/../dependencies/linenoise" />
+            <Add directory="/Users/netmask/Projects/personal/epoch/engine/build/../headers" />
+            <Add directory="/Users/netmask/Projects/personal/epoch/engine/build/../source" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 epoch/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/Users/netmask/Projects/personal/epoch/engine/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/Users/netmask/Projects/personal/epoch/engine/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c">
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp">
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp">
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp">
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.h">
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/build/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/build/cmake_modules/FindLLVM.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/build/cmake_modules/FindSFML.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+      <Unit filename="/Users/netmask/Projects/personal/epoch/engine/build/cmake_modules/FindV8.cmake">
+          <Option virtualFolder="CMake Files\cmake_modules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
