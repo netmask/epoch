@@ -42,7 +42,7 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/local/Cellar/cmake/2.8.11.1/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/netmask/Projects/personal/epoch/engine/build
+CMAKE_SOURCE_DIR = /Users/netmask/projects/personal/epoch/engine/build
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/netmask/Projects/personal/epoch/engine/build
@@ -114,101 +114,101 @@ epoch/fast:
 	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/build
 .PHONY : epoch/fast
 
-Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.o: Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.o
+Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.o: Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.o
 
 # target to build an object file
-Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o
+Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.o
 
-Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.i: Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.i
+Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.i: Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.i
 
 # target to preprocess a source file
-Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i
+Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.i
 
-Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.s: Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.s
+Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.s: Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.s
 
 # target to generate assembly for a file
-Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s
+Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.c.s
 
-Users/netmask/Projects/personal/epoch/engine/source/epoch.o: Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch.o
+Users/netmask/projects/personal/epoch/engine/source/epoch.o: Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch.o
 
 # target to build an object file
-Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.o:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.o
+Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.o:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.o
 
-Users/netmask/Projects/personal/epoch/engine/source/epoch.i: Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch.i
+Users/netmask/projects/personal/epoch/engine/source/epoch.i: Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch.i
 
 # target to preprocess a source file
-Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.i:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.i
+Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.i:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.i
 
-Users/netmask/Projects/personal/epoch/engine/source/epoch.s: Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch.s
+Users/netmask/projects/personal/epoch/engine/source/epoch.s: Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch.s
 
 # target to generate assembly for a file
-Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.s:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch.cpp.s
+Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.s:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch.cpp.s
 
-Users/netmask/Projects/personal/epoch/engine/source/epoch_main.o: Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch_main.o
+Users/netmask/projects/personal/epoch/engine/source/epoch_main.o: Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch_main.o
 
 # target to build an object file
-Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.o:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.o
+Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.o:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.o
 
-Users/netmask/Projects/personal/epoch/engine/source/epoch_main.i: Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch_main.i
+Users/netmask/projects/personal/epoch/engine/source/epoch_main.i: Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch_main.i
 
 # target to preprocess a source file
-Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.i:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.i
+Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.i:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.i
 
-Users/netmask/Projects/personal/epoch/engine/source/epoch_main.s: Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch_main.s
+Users/netmask/projects/personal/epoch/engine/source/epoch_main.s: Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch_main.s
 
 # target to generate assembly for a file
-Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.s:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epoch_main.cpp.s
+Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.s:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epoch_main.cpp.s
 
-Users/netmask/Projects/personal/epoch/engine/source/epscript.o: Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epscript.o
+Users/netmask/projects/personal/epoch/engine/source/epscript.o: Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epscript.o
 
 # target to build an object file
-Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.o:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.o
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.o
+Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.o:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.o
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.o
 
-Users/netmask/Projects/personal/epoch/engine/source/epscript.i: Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epscript.i
+Users/netmask/projects/personal/epoch/engine/source/epscript.i: Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epscript.i
 
 # target to preprocess a source file
-Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.i:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.i
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.i
+Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.i:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.i
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.i
 
-Users/netmask/Projects/personal/epoch/engine/source/epscript.s: Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epscript.s
+Users/netmask/projects/personal/epoch/engine/source/epscript.s: Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epscript.s
 
 # target to generate assembly for a file
-Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.s:
-	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.s
-.PHONY : Users/netmask/Projects/personal/epoch/engine/source/epscript.cpp.s
+Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.s:
+	$(MAKE) -f CMakeFiles/epoch.dir/build.make CMakeFiles/epoch.dir/Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.s
+.PHONY : Users/netmask/projects/personal/epoch/engine/source/epscript.cpp.s
 
 # Help Target
 help:
@@ -219,18 +219,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... epoch"
 	@echo "... rebuild_cache"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.o"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.i"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/dependencies/linenoise/linenoise.s"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epoch.o"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epoch.i"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epoch.s"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epoch_main.o"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epoch_main.i"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epoch_main.s"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epscript.o"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epscript.i"
-	@echo "... Users/netmask/Projects/personal/epoch/engine/source/epscript.s"
+	@echo "... Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.o"
+	@echo "... Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.i"
+	@echo "... Users/netmask/projects/personal/epoch/engine/dependencies/linenoise/linenoise.s"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epoch.o"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epoch.i"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epoch.s"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epoch_main.o"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epoch_main.i"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epoch_main.s"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epscript.o"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epscript.i"
+	@echo "... Users/netmask/projects/personal/epoch/engine/source/epscript.s"
 .PHONY : help
 
 

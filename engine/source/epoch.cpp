@@ -1,8 +1,8 @@
 #include <epoch.h>
 
 Epoch::Engine::Engine()
+    :script(new Script())
 {
-    this->script = new Script();
     this->REPL();
 }
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/netmask/Projects/personal/epoch/engine/build
+# Install script for directory: /Users/netmask/projects/personal/epoch/engine/build
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
